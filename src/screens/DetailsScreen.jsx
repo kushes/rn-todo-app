@@ -19,29 +19,12 @@ const DetailsScreen = () => {
               fontSize: 25,
               textAlign: "center",
               marginBottom: 16,
+              color: "grey",
             }}
           >
             You are on Details Screen
           </Text>
         </View>
-        <Text
-          style={{
-            fontSize: 18,
-            textAlign: "center",
-            color: "grey",
-          }}
-        >
-          React Native Bottom Navigation
-        </Text>
-        <Text
-          style={{
-            fontSize: 16,
-            textAlign: "center",
-            color: "grey",
-          }}
-        >
-          www.aboutreact.com
-        </Text>
       </View>
     </SafeAreaView>
   );

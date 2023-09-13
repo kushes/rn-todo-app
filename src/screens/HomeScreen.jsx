@@ -28,6 +28,7 @@ const HomeScreen = ({ navigation }) => {
               fontSize: 25,
               textAlign: "center",
               marginBottom: 16,
+              color: "grey",
             }}
           >
             You are on Home Screen
@@ -35,10 +36,10 @@ const HomeScreen = ({ navigation }) => {
           <TouchableOpacity
             style={styles.button}
             onPress={() =>
-              navigation.navigate("SettingsStack", { screen: "Settings" })
+              navigation.navigate("ProfileStack", { screen: "Profile" })
             }
           >
-            <Text>Go to settng Tab</Text>
+            <Text>Go to Profile Tab</Text>
           </TouchableOpacity>
           <TouchableOpacity
             style={styles.button}
@@ -47,24 +48,6 @@ const HomeScreen = ({ navigation }) => {
             <Text>Open Details Screen</Text>
           </TouchableOpacity>
         </View>
-        <Text
-          style={{
-            fontSize: 18,
-            textAlign: "center",
-            color: "grey",
-          }}
-        >
-          React Native Bottom Navigation
-        </Text>
-        <Text
-          style={{
-            fontSize: 16,
-            textAlign: "center",
-            color: "grey",
-          }}
-        >
-          www.aboutreact.com
-        </Text>
       </View>
     </SafeAreaView>
   );
@@ -73,7 +56,7 @@ const HomeScreen = ({ navigation }) => {
 const styles = StyleSheet.create({
   button: {
     alignItems: "center",
-    backgroundColor: "#DDDDDD",
+    backgroundColor: "grey",
     padding: 10,
     width: 300,
     marginTop: 16,

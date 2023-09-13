@@ -1,10 +1,9 @@
 // React Native Bottom Navigation
 // https://aboutreact.com/react-native-bottom-navigation/
-
 import * as React from "react";
 import { View, Text, SafeAreaView } from "react-native";
 
-const SettingsScreen = () => {
+const AddNewScreen = () => {
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View style={{ flex: 1, padding: 16 }}>
@@ -23,11 +22,11 @@ const SettingsScreen = () => {
               color: "grey",
             }}
           >
-            You are on Settings Screen
+            Add a new todo from this screen
           </Text>
         </View>
       </View>
     </SafeAreaView>
   );
 };
-export default SettingsScreen;
+export default AddNewScreen;
