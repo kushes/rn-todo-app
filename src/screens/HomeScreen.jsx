@@ -14,7 +14,6 @@ import SelectDropdown from "react-native-select-dropdown";
 import { Colors } from "../utils/colors";
 
 const HomeScreen = ({ navigation }) => {
-    
     return (
         <SafeAreaView style={{ flex: 1 }}>
             <View style={{ flex: 1, padding: 16, backgroundColor: Colors.PAGE_WHITE }}>
@@ -33,9 +32,9 @@ const HomeScreen = ({ navigation }) => {
                             color: "grey",
                         }}
                     >
-                        You are on Home Screen
+                        No to-do found.
                     </Text>
-                    <TouchableOpacity
+                    {/* <TouchableOpacity
                         style={styles.button}
                         onPress={() => navigation.navigate("ProfileStack", { screen: "Profile" })}
                     >
@@ -46,10 +45,9 @@ const HomeScreen = ({ navigation }) => {
                         onPress={() => navigation.navigate("Details")}
                     >
                         <Text>Open Details Screen</Text>
-                    </TouchableOpacity>
+                    </TouchableOpacity> */}
                 </View>
             </View>
-            
         </SafeAreaView>
     );
 };

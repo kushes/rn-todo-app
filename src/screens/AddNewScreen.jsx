@@ -66,7 +66,7 @@ const AddNewScreen = () => {
                         return item;
                     }}
                 />
-                <Button onPress={showDatepicker} title="Show date picker!" />
+                <Button onPress={showDatepicker} title="Due date" />
             </View>
         </SafeAreaView>
     );
